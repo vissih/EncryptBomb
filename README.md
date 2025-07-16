@@ -1,12 +1,8 @@
-# Phaeton
-
 A secure, end-to-end encrypted message sharing tool that prioritizes privacy. Share sensitive information with confidence through password-protected, self-destructing messages.
-
-**Live Demo**: [Phaeton](https://phaeton-five.vercel.app)
 
 ## Security-First Design
 
-Phaeton implements client-side encryption to ensure that your messages remain private. The server never has access to your decrypted content, passwords, or encryption keys—providing true zero-knowledge security.
+Implements client-side encryption to ensure that your messages remain private. The server never has access to your decrypted content, passwords, or encryption keys—providing true zero-knowledge security.
 
 ### Key Security Features
 
@@ -72,7 +68,7 @@ Phaeton implements client-side encryption to ensure that your messages remain pr
     
     ```env
     # Database
-    DATABASE_URL="mongodb://localhost:27017/phaeton"
+    DATABASE_URL="mongodb://localhost:27017/"
     NEXT_PUBLIC_DEFAULT_PASSWORD="Your Default Password for encrypting messages" 
     
     ```
@@ -94,7 +90,7 @@ Phaeton implements client-side encryption to ensure that your messages remain pr
     
 6.  **Open your browser**
     
-    Navigate to `http://localhost:3000` to start using Phaeton.
+    Navigate to `http://localhost:3000` to start
 
 ## Security Considerations
 
